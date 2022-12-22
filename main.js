@@ -22,31 +22,7 @@ btn.style.background = "green";
 function onclick(e) {
 btn.style.background = "blue";
 }
-
-/*function onSubmit(e) {
-    e.preventDefault();
-    
-    if (nameInput.value === "" || emailInput.value === "") {
-     msg.classList.add("error");
-    
-        msg.innerHTML = "please enter all fields";
-    
-        setTimeout(() => msg.remove(), 3000);
-    } else {
-    var myobj = {
-        name : nameInput.value,
-         email: emailInput.value
-    }
-    var myobjserialized =JSON.stringify(myobj);
-    console.log(myobjserialized);
-    
-    localStorage.setItem('myobj',myobjserialized);
-    
-    }
-    nameInput.value = "";
-    emailInput.value = "";
-    }
-*/ 
+ 
 function onSubmit(e) {
     e.preventDefault();
     
