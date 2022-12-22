@@ -41,7 +41,7 @@ var myobjserialized =JSON.stringify(myobj);
 console.log(myobjserialized);
 
 localStorage.setItem('myobj',myobjserialized);
-console.log(JSON.parse(localStorage.getItem('myobj')));
+
 }
 nameInput.value = "";
 emailInput.value = "";
